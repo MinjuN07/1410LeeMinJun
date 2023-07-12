@@ -1169,6 +1169,9 @@ a:visited {
   border: none;
   color: #333;
 }
+.song a:visited {
+  color: #333;
+}
 
 .artist {
   position: relative;
@@ -1192,6 +1195,9 @@ a:visited {
 .ellipsis2 a {
   font-size: 12px;
   line-height: 15px;
+  color: #8a8a8a;
+}
+.ellipsis2 a:visited {
   color: #8a8a8a;
 }
 

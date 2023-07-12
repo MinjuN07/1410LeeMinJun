@@ -17,6 +17,10 @@ a:link {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
 #warp {
   width: 1048px;
   height: 1500px;
@@ -346,6 +350,7 @@ a:link {
 .gnd--nth1 span {
   display: block;
   width: 72px;
+  color: #777;
 }
 
 .gnd--nth2 {
@@ -354,6 +359,7 @@ a:link {
 .gnd--nth2 span {
   display: block;
   width: 72px;
+  color: #777;
 }
 
 .gnd--nth3 {
@@ -362,6 +368,7 @@ a:link {
 .gnd--nth3 span {
   display: block;
   width: 72px;
+  color: #777;
 }
 
 .gnd--nth4 {
@@ -370,6 +377,7 @@ a:link {
 .gnd--nth4 span {
   display: block;
   width: 60px;
+  color: #777;
 }
 
 .gnd--nth5 {
@@ -378,6 +386,7 @@ a:link {
 .gnd--nth5 span {
   display: block;
   width: 62px;
+  color: #777;
 }
 
 .gnd--nth6 {
@@ -386,6 +395,7 @@ a:link {
 .gnd--nth6 span {
   display: block;
   width: 85px;
+  color: #777;
 }
 
 .gnd--nth7 {
@@ -394,6 +404,7 @@ a:link {
 .gnd--nth7 span {
   display: block;
   width: 55px;
+  color: #777;
 }
 
 .gnd--nth8 {
@@ -402,6 +413,7 @@ a:link {
 .gnd--nth8 span {
   display: block;
   width: 86px;
+  color: #777;
 }
 
 .gnd--nth9 {
@@ -410,6 +422,7 @@ a:link {
 .gnd--nth9 span {
   display: block;
   width: 45px;
+  color: #777;
 }
 
 .gnd--nth10 {
@@ -418,6 +431,7 @@ a:link {
 .gnd--nth10 span {
   display: block;
   width: 124px;
+  color: #777;
 }
 
 .gnd--nth11 {
@@ -433,9 +447,15 @@ a:link {
   cursor: pointer;
   color: rgb(166, 255, 32);
 }
+.gnd--nth1:hover span {
+  color: rgb(166, 255, 32);
+}
 
 .gnd--nth2:hover {
   cursor: pointer;
+  color: rgb(166, 255, 32);
+}
+.gnd--nth2:hover span {
   color: rgb(166, 255, 32);
 }
 
@@ -443,9 +463,15 @@ a:link {
   cursor: pointer;
   color: rgb(166, 255, 32);
 }
+.gnd--nth3:hover span {
+  color: rgb(166, 255, 32);
+}
 
 .gnd--nth4:hover {
   cursor: pointer;
+  color: rgb(166, 255, 32);
+}
+.gnd--nth4:hover span {
   color: rgb(166, 255, 32);
 }
 
@@ -453,9 +479,15 @@ a:link {
   cursor: pointer;
   color: rgb(166, 255, 32);
 }
+.gnd--nth5:hover span {
+  color: rgb(166, 255, 32);
+}
 
 .gnd--nth6:hover {
   cursor: pointer;
+  color: rgb(166, 255, 32);
+}
+.gnd--nth6:hover span {
   color: rgb(166, 255, 32);
 }
 
@@ -463,9 +495,15 @@ a:link {
   cursor: pointer;
   color: rgb(166, 255, 32);
 }
+.gnd--nth7:hover span {
+  color: rgb(166, 255, 32);
+}
 
 .gnd--nth8:hover {
   cursor: pointer;
+  color: rgb(166, 255, 32);
+}
+.gnd--nth8:hover span {
   color: rgb(166, 255, 32);
 }
 
@@ -473,14 +511,23 @@ a:link {
   cursor: pointer;
   color: rgb(166, 255, 32);
 }
+.gnd--nth9:hover span {
+  color: rgb(166, 255, 32);
+}
 
 .gnd--nth10:hover {
   cursor: pointer;
   color: rgb(166, 255, 32);
 }
+.gnd--nth10:hover span {
+  color: rgb(166, 255, 32);
+}
 
 .gnd--nth11:hover {
   cursor: pointer;
+  color: rgb(166, 255, 32);
+}
+.gnd--nth11:hover span {
   color: rgb(166, 255, 32);
 }
 
@@ -1120,6 +1167,7 @@ a:link {
   white-space: nowrap;
   word-wrap: normal;
   border: none;
+  color: #333;
 }
 
 .artist {
@@ -1144,6 +1192,7 @@ a:link {
 .ellipsis2 a {
   font-size: 12px;
   line-height: 15px;
+  color: #8a8a8a;
 }
 
 #notice {
